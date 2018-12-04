@@ -9,7 +9,7 @@ public class loopandarray
       names[2] = "Sankar";
       names[3] = "Gita";
       
-      int[] ages = {16,21,42,45};
+      int[] ages = {16,21,45,42};
       
       for(int i=0; i<names.length; i++) {
       System.out.println ("I am " + names[i] + " and I am " + ages[i] + " years old");
