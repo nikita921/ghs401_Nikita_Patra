@@ -14,6 +14,6 @@ public class array
         for(int i=0; i<myArray.length; i++) {
             
             System.out.println("The value of element: " + i + " in the array is " + myArray[i]);
-}
-}
+        }
+    }
 }
