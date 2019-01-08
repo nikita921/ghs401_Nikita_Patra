@@ -12,6 +12,7 @@ public class Songs
        this.artist = null;
        this.title = null;
        this.genre = null;
+       System.out.println("1");
     }
    
    public Songs(double cost, String artist, String title, String genre)
@@ -20,6 +21,7 @@ public class Songs
        this.artist = artist;
        this.title = title;
        this.genre = genre;
+       System.out.println("2");
    }
    
    public String toString(){

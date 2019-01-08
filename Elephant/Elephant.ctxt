@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Elephant
+comment1.params=
+comment1.target=Elephant()
+comment2.params=speed
+comment2.target=Elephant(int)
+comment3.params=
+comment3.target=void\ act()
+numComments=4
