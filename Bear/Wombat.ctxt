@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Wombat
+comment1.params=speed
+comment1.target=Wombat(int)
+comment2.params=
+comment2.target=double\ calcTripDistance()
+comment3.params=
+comment3.target=double\ calcTripTravelTime()
+comment4.params=
+comment4.target=void\ act()
+numComments=5
