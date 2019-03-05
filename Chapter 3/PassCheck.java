@@ -28,7 +28,7 @@ public class PassCheck
                     System.out.println("Correct!");
                     String password = JOptionPane.showInputDialog("Create a new password.");
                     while(passwordIsLong == false){
-                        if(password.contains("*") || password.contains("-") || password.contains("+") || password.contains("@") && password.length() >= 6)
+                        if((password.contains("*") || password.contains("-") || password.contains("+") || password.contains("@")) && password.length() >= 6)
                         {
                             System.out.println("Cool thxs.");  
                             passwordIsLong=true;

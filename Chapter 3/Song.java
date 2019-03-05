@@ -5,7 +5,7 @@ public class Song
 {
    private double cost;
    private String artist;
-   private String title;
+   public String title;
    private String genre;
    private int lengthInSecs;
    int minutes = 0;
@@ -28,7 +28,7 @@ public class Song
        
        
     }
-    public String convertToMinSec(){
+   public String convertToMinSec(){
         minutes = lengthInSecs/60;
         seconds = lengthInSecs%60;
         

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Spaceship
+comment1.params=speed
+comment1.target=Spaceship(int)
+comment2.params=
+comment2.target=double\ calcAverageLuminosity()
+comment3.params=
+comment3.target=int\ calcMaxLuminosity()
+comment4.params=
+comment4.target=void\ act()
+numComments=5
