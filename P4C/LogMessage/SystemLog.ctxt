@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SystemLog()
+comment1.params=keyword
+comment1.target=java.util.List\ removeMessages(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

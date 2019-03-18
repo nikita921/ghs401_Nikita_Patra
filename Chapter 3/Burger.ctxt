@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=isTasty\ isSavory\ withFries
+comment0.target=Burger(boolean,\ boolean,\ boolean)
+comment1.params=Avacado
+comment1.target=boolean\ extraAvacado(boolean)
+comment2.params=
+comment2.target=boolean\ isEaten()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

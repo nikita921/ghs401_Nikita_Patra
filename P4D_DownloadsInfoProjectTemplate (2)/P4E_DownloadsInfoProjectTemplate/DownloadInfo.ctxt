@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=initialTitle
+comment0.target=DownloadInfo(java.lang.String)
+comment1.params=initialTitle\ initialTimesDownloaded
+comment1.target=DownloadInfo(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+comment3.params=
+comment3.target=void\ incrementTimesDownloaded()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
