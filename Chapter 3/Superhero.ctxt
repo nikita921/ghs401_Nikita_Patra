@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=Superhero()
-comment1.params=name\ canFly
-comment1.target=Superhero(java.lang.String,\ boolean)
-comment2.params=
-comment2.target=java.lang.String\ toString()
-comment2.text=public\ String\ getMotto()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ return\ "I\ save\ lives";\r\n}
-numComments=3
