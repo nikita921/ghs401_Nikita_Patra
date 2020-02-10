@@ -1,19 +1,22 @@
-
+import javax.swing.JOptionPane;
 
 public class Driver
 {
     public static void main()
     {
-        
-        Songs song8= new Songs();
-        Songs song2= new Songs(0.50, "Imagine Dragons", "Radioactive", "Pop");
-        
-        Student student1= new Student();
-        Songs song1= new Songs();
-        Student student2= new Student("Daria", "Orlova", 17, "female");
-        
-        System.out.println(song1.toString() + "\n \n" + song2.toString() + "\n \n" + student1.toString() 
-        + "\n \n" + student2.toString());
-
+      double w = Double.parseDouble(JOptionPane.showInputDialog("Please enter your weight in pounds: "));
+      double f = Double.parseDouble(JOptionPane.showInputDialog("For height, first enter feet"));
+      double i = Double.parseDouble(JOptionPane.showInputDialog("Now enter inches"));
+      String g = JOptionPane.showInputDialog("Are you a female or male?");
+      String g1 = g.toLowerCase();
+      double a = Double.parseDouble(JOptionPane.showInputDialog("Please enter your age in years"));
+      
+      BMI b1 = new BMI(w,f,i,g1,a);
+      
+      System.out.println(b1.toString());
+      System.out.println("Basal metabolic rate is the number of calories\nyou need just for your body to function"  +
+      "\n\nTo maintain your weight, consume the amount of calories calculated in your BMR." 
+      + "\nIn order lose weight, consume less calories, and to gain weight, consume more.");
+      
     }
 }

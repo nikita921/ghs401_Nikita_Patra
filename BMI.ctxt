@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BMI
+comment1.params=weight\ feet\ inches\ gender\ age
+comment1.target=BMI(double,\ double,\ double,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=double\ calcBMI()
+comment3.params=
+comment3.target=double\ calcBMR()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
